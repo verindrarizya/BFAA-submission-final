@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_placeholder">Placeholder Nama</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Nama Pengguna…</string>
+    <string name="describe_user_image">"Gambar Profil Pengguna "</string>
+    <string name="welcome_statement">Selamat datang di Github User,\nSilahkan cari nama pengguna terlebih dahulu</string>
+    <string name="detail">Detil</string>
+    <string name="following">Mengikuti</string>
+    <string name="followers">Pengikut</string>
+    <string name="company">Perusahaan</string>
+    <string name="location">Lokasi</string>
+    <string name="repository">Repositori</string>
+    <string name="splash_icon">Ikon Splash</string>
+    <string name="splash_statement">Github User dibuat oleh Verindra Rizya</string>
+    <string name="loading">Memuat…</string>
+    <string name="followers_none_statement">Pengguna ini tidak memiliki pengikut</string>
+    <string name="following_none_statement">Pengguna ini tidak mengikuti siapapun</string>
+    <string name="user_detail">Detail Pengguna</string>
+    <string name="settings">Pengaturan</string>
+    <string name="language">Bahasa</string>
+    <string name="set_alarm_09_00_am">Atur Alarm 09:00 AM</string>
+    <string name="choose_language">Pilih bahasa yang kau suka</string>
+    <string name="alarm_notification_title">Github User memanggil</string>
+    <string name="alarm_notification_text">Hai yang disana! Periksa hal baru dalam aplikasi kami</string>
+    <string name="alarm_on_toast_message">Alarm telah terpasang</string>
+    <string name="alarm_off_toast_message">Alarm telah dibatalkan</string>
+    <string name="search_result_is_empty">Tidak ada pengguna yang dapat ditemukan, mohon cari lagi</string>
+    <string name="user_favorite">Pengguna Favorit</string>
+</resources>

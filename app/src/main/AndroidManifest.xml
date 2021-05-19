@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.subfundatiga">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="com.example.subfundatiga.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.example.subfundatiga.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SubFundaTiga">
+        <activity android:name=".activities.UserFavActivity"/>
+
+        <provider
+            android:name=".assets.provider.UserFavProvider"
+            android:authorities="com.example.subfundatiga"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.example.subfundatiga.READ_DATABASE"
+            android:writePermission="com.example.subfundatiga.WRITE_DATABASE" />
+
+        <receiver
+            android:name=".alarm.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activities.SettingsActivity" />
+        <activity android:name=".activities.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.UserActivity" />
+        <activity android:name=".activities.MainActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">consumerapp</string>
+    <string name="describe_user_image">User Image</string>
+    <string name="name_placeholder">Name Placeholder</string>
+</resources>

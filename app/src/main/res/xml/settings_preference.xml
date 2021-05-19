@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        app:icon="@drawable/ic_alarms_black_24"
+        app:key="@string/key_alarm"
+        app:title="@string/set_alarm_09_00_am"/>
+
+    <Preference
+        app:icon="@drawable/ic_languange_black_24"
+        app:key="@string/key_language"
+        app:title="@string/language"/>
+
+</PreferenceScreen>

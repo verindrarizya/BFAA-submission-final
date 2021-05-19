@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">Github User</string>
+
+    <string name="name_placeholder">Name Placeholder</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Username…</string>
+    <string name="settings">Settings</string>
+
+    <string name="describe_user_image">User\'s Profile Image</string>
+    <string name="welcome_statement">Welcome to Github User,\nPlease search the username first</string>
+    <string name="detail">Detail</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="repository">Repository</string>
+    <string name="_999" translatable="false">999</string>
+    <string name="splash_icon">Splash Icon</string>
+    <string name="splash_statement">Github User made by Verindra Rizya</string>
+    <string name="loading">Loading…</string>
+    <string name="followers_none_statement">This users doesn\'t have followers</string>
+    <string name="following_none_statement">This user is not following anyone</string>
+    <string name="user_detail">User Detail</string>
+    <string name="language">Languange</string>
+    <string name="choose_language">Choose language to your liking</string>
+
+    <string name="set_alarm_09_00_am">Set Alarm 09:00 AM</string>
+
+    <!-- Key -->
+    <string name="key_alarm" translatable="false">key_alarm</string>
+    <string name="key_language" translatable="false">key_languange</string>
+
+    <!-- alarm notification -->
+    <string name="alarm_notification_title">Github User is calling</string>
+    <string name="alarm_notification_text">Hi there! Check new stuff in our app</string>
+
+    <!-- alarm toast -->
+    <string name="alarm_on_toast_message">Alarm is set</string>
+    <string name="alarm_off_toast_message">Alarm is canceled</string>
+    <string name="search_result_is_empty">None users can be found, please try again</string>
+
+    <string name="user_fav_button" translatable="false">user_fav_button</string>
+    <string name="user_favorite">User Favorite</string>
+</resources>
